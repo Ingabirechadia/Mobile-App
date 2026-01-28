@@ -1,0 +1,24 @@
+name: vision_translator
+description: A speech-to-text translator supporting English, French and Kinyarwanda.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  speech_to_text: ^7.3.0
+  translator: ^1.0.4+1
+  permission_handler: ^12.0.1
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
